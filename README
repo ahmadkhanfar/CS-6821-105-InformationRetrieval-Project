@@ -1,0 +1,58 @@
+This project implements an Information Retrieval (IR) system that ranks documents based on a given query. It compares three widely used methods in IR: TF (Term Frequency), TF-IDF (Term Frequency-Inverse Document Frequency), and BM25. The system supports several preprocessing options, including tokenization, stemming, and stopword removal.
+
+GROUP MEMBERS
+
+Group Members:  
+Ahmad K. Khanfar 
+Mamatha Devi Thalari 
+Aishwarya Doma 
+Meghana Vasudeva Murthy 
+
+
+
+---------------------------------------------------------------	
+Ranking Methods:
+TF (Term Frequency)
+TF-IDF (Term Frequency-Inverse Document Frequency)
+BM25 (Best Matching 25)
+Preprocessing Options:
+Tokenization: Whitespace Tokenization or NLTK Tokenization
+Stemming: Option to apply or skip stemming using NLTK's Porter Stemmer.
+Stopword Removal: Option to remove common stopwords using NLTK.
+
+Metrics Computation:
+Precision
+Recall
+F1-Score
+Precision at k (P@10)
+Normalized Discounted Cumulative Gain (NDCG)
+Result Export:
+
+Save the results to an Excel file for further analysis, including details about the keyword used, tokenization method, preprocessing settings, and the ranking scores.
+
+
+--------------------------------------------------------------------------------------
+
+Requirements
+To run the program, you need to install the following dependencies:
+
+Python 3.x
+Pandas: pip install pandas
+NLTK: pip install nltk
+Scikit-learn: pip install scikit-learn
+OpenPyXL: pip install openpyxl
+Streamlit (Optional for UI): pip install streamlit
+
+------------------------------------------------------------------------------
+
+
+How to RUN: 
+streamlit run main.py
+
+
+
+Make sure you have a directory created named Data, Data Will contain the test results. 
+
+
+
+
