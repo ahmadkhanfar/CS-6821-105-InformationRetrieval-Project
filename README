@@ -51,8 +51,9 @@ streamlit run main.py
 
 
 
-Make sure you have a directory created named Data, Data Will contain the test results. 
+Processed Directory for processing the files  and use the output for accurate calculations. 
 
+Results for using Ranking methods will store every query results and whether we applied stemming, stopwords or non
 
 
 
